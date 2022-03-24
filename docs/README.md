@@ -1,3 +1,23 @@
+### notes for mac install
+install qt5 to get qmake
+```
+brew install qt5
+```
+allow access to qmake from the terminal
+```
+brew link qt5 --force
+```
+but still need to resolve issue with qmake SDK version (has 12, needs 11)
+
+eventually...
+then
+```
+pip3 install construct
+pip3 install PyQt5
+pip3 install PyOpenGL
+pip3 install netifaces
+```
+
 # Python ProDJ Link
 
 ![single player screenshot](screenshot-single.png)
