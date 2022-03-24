@@ -3,14 +3,12 @@ install qt5 to get qmake
 ```
 brew install qt5
 ```
-allow access to qmake from the terminal
+allow access to qmake from the terminal (maybe not necessary)
 ```
 brew link qt5 --force
 ```
-but still need to resolve issue with qmake SDK version (has 12, needs 11)
-
-eventually...
-then
+open a rosetta terminal: https://dev.to/courier/tips-and-tricks-to-setup-your-apple-m1-for-development-547g
+then:
 ```
 pip3 install construct
 pip3 install PyQt5
