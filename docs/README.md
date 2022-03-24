@@ -1,3 +1,22 @@
+### note: in debian11 (kali2022.1): 
+had to change version of pyqt5 and pyqt5-sip in requirements.txt to:
+```
+#PyQt5==5.13.1
+PyQt5==5.15.6
+#PyQt5-sip==12.7.0
+PyQt5-sip==12.8.0
+```
+
+and had to install
+```
+sudo apt-get install libasound2-dev
+```
+
+then, could run (couldn't get virtualenv to work, kept giving error installing pyqt5...)
+```
+pip3 install -r requirements.txt
+```
+
 ### note: haven't gotten mac install to work yet, but tried:
 install qt5 to get qmake
 ```
