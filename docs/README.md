@@ -17,7 +17,10 @@ then, could run (couldn't get virtualenv to work, kept giving error installing p
 pip3 install -r requirements.txt
 ```
 
-### note: haven't gotten mac install to work yet, but tried:
+### note: mac M1 install:
+first create python virtual env, and installed requirements, but fails because ALSA requirement (linux only extension 'alsaseq'
+
+OLD NOT NEEDED HOPEFULLY:
 install qt5 to get qmake
 ```
 brew install qt5
