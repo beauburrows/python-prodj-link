@@ -1,4 +1,4 @@
-### notes for mac install
+### note: haven't gotten mac install to work yet, but tried:
 install qt5 to get qmake
 ```
 brew install qt5
